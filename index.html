@@ -4,26 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Крестики-нолики</h1>
-<div class="count">СЧЕТ</div>
 <div class="container">
-    <div class="board">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
+    <h1>Крестики-Нолики</h1>
+    <div id="game"></div>
+    <div id="resultMessage"></div>
+    <button id="myBtn" onclick="location.reload()">Новая игра</button>
 </div>
-<button class="newGameButton">новая игра<button>
+
 
 <script src="script.js"></script>
+
 </body>
 </html>

@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba4c1ca-6e3d-44c4-b34c-8812699317a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrypt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,16 +17,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="ProjectId" id="2B1PBGYWfCTKf6sb6fQ2O1PYhA2" />
+  <component name="ProjectId" id="2BBiuADNkUhskCJxnnqAOWnHT02" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -35,12 +36,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homeTask_1_21_06_2022" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -48,12 +47,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ba4c1ca-6e3d-44c4-b34c-8812699317a6" name="Default Changelist" comment="" />
-      <created>1656070480824</created>
+      <changelist id="603f1b44-33ef-4e57-ac28-895873f8d0a9" name="Default Changelist" comment="" />
+      <created>1656386098459</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656070480824</updated>
-      <workItem from="1656070482102" duration="710000" />
+      <updated>1656386098459</updated>
+      <workItem from="1656386099656" duration="18278000" />
     </task>
     <servers />
   </component>
@@ -61,17 +60,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1049" y="128" key="#Notifications" timestamp="1656070723080">
-      <screen x="-1280" y="0" width="1280" height="943" />
+    <state x="739" y="273" key="FileChooserDialogImpl" timestamp="1656405931638">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1049" y="128" key="#Notifications/0.0.1920.1040/-1280.0.1280.943@-1280.0.1280.943" timestamp="1656070723080" />
-    <state x="-1026" y="63" key="CommitChangelistDialog2" timestamp="1656071320215">
-      <screen x="-1280" y="0" width="1280" height="943" />
-    </state>
-    <state x="-1026" y="63" key="CommitChangelistDialog2/0.0.1920.1040/-1280.0.1280.943@-1280.0.1280.943" timestamp="1656071320215" />
-    <state x="-837" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1656071302534">
-      <screen x="-1280" y="0" width="1280" height="943" />
-    </state>
-    <state x="-837" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1280.0.1280.943@-1280.0.1280.943" timestamp="1656071302534" />
+    <state x="739" y="273" key="FileChooserDialogImpl/0.0.1920.1040/-1280.0.1280.943@0.0.1920.1040" timestamp="1656405931638" />
   </component>
 </project>
