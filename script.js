@@ -44,6 +44,7 @@ function checkWinner () {
         {
             result = 'крестики победили';
             doResult(result);
+            return;
         }
         else
             if (boxes[arr[i][0]].innerHTML === '0'
@@ -53,20 +54,19 @@ function checkWinner () {
             {
                 result = 'нолики победили';
                 doResult(result);
-
+                return
             }
-//проверка на ничью
-            if (step === 9 && boxes[arr[i][0]].innerHTML !== ''
-            && boxes[arr[i][1]].innerHTML !== ''
-            && boxes[arr[i][2]].innerHTML !== '')
-            {
-                result = 'ничья';
-                doResult(result);
 
-            }
+    }
+    //проверка на ничью
+    if (step === 9)
+    {
+        result = 'ничья';
+        doResult(result);
     }
 }
+
 //объявление победителя
 let doResult = winner => {
 resultMessage.innerText = winner;
-}
+};
