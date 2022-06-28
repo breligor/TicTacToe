@@ -21,6 +21,7 @@ for (let i = 0; i < 9; i++) {
             step++;
             checkWinner();
         }
+
     };
 //функция проверки победителя
 function checkWinner () {
