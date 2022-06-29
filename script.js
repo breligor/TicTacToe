@@ -1,4 +1,4 @@
-let result = ''; //переменная для объявления победителя
+let result = undefined; //переменная для объявления победителя
 let step = 0; //счетчик хода
 let resultMessage = document.getElementById('resultMessage'); // html-блок объявления победителя
 const boxes = document.getElementsByClassName('block'); // ячейка
@@ -10,7 +10,11 @@ for (let i = 0; i < 9; i++) {
 // игра
     game.onclick = function (event)
     {
-        if (event.target.className === 'block' && event.target.textContent === "") //нахождение блока и проверка от повторного нажатия
+        if (result !== undefined)
+        {
+            return
+        }
+        else if (event.target.className === 'block' && event.target.textContent === "") //нахождение блока и проверка от повторного нажатия
         {
             if  (step % 2 === 0 ) {
                 event.target.innerHTML = 'X';
@@ -21,8 +25,8 @@ for (let i = 0; i < 9; i++) {
             step++;
             checkWinner();
         }
-
     };
+
 //функция проверки победителя
 function checkWinner () {
 //массив все выигрышных вариантов
@@ -45,7 +49,6 @@ function checkWinner () {
         {
             result = 'крестики победили';
             doResult(result);
-            return;
         }
         else
             if (boxes[arr[i][0]].innerHTML === '0'
@@ -55,9 +58,7 @@ function checkWinner () {
             {
                 result = 'нолики победили';
                 doResult(result);
-                return
             }
-
     }
     //проверка на ничью
     if (step === 9)
@@ -66,7 +67,6 @@ function checkWinner () {
         doResult(result);
     }
 }
-
 //объявление победителя
 let doResult = winner => {
 resultMessage.innerText = winner;
