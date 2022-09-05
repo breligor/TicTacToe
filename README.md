@@ -1,1 +1,1 @@
-# Task2_Brel_Igor
+# 3x3 game
